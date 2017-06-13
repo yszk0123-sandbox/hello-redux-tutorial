@@ -1,0 +1,18 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "targets": {
+          "browsers": [
+            "last 1 version"
+          ]
+        },
+        "modules": false,
+        "exclude": [
+          "transform-regenerator"
+        ]
+      }
+    ]
+  ]
+}
